@@ -11,11 +11,11 @@ Notably, TKiz uses Python-style `fn foo: ...` syntax, as opposed to the original
 # Arithmetic Expressions
 
 ### String Literal
-`"asdfghjklqwertyyuiopzxcvbbnm"`: Basic string literal
-`r"asdfghjklqwertyyuiopzxcvbbnm"`: Raw string literal
-`t|SqlChecker|"select {pattern name} from a"`: Template string literal, which is validated by a designated checker to prevent XSS/SQL injection vulnerabilities
+- `"asdfghjklqwertyyuiopzxcvbbnm"`: Basic string literal
+- `r"asdfghjklqwertyyuiopzxcvbbnm"`: Raw string literal
+- `t|SqlChecker|"select {pattern name} from a"`: Template string literal, which is validated by a designated checker to prevent XSS/SQL injection vulnerabilities
 
-`"""abc\bdef"""`: Multi-line string literal, delimited by triple `"""`
+- `"""abc\bdef"""`: Multi-line string literal, delimited by triple `"""`
 
 ### Time Literal
 - `3Ms`: 3 milliseconds
@@ -24,11 +24,11 @@ Notably, TKiz uses Python-style `fn foo: ...` syntax, as opposed to the original
 - `3Hour`: 3 hours
 
 ### Number Literal
-`111`: Basic integer literal
-`111_111`: Integer literal with visual digit separators
-`111.222`: Basic decimal literal
-`111.222f`: Explicit single-precision floating-point literal
-`111.222e-10`: Literal in scientific notation
+- `111`: Basic integer literal
+- `111_111`: Integer literal with visual digit separators
+- `111.222`: Basic decimal literal
+- `111.222f`: Explicit single-precision floating-point literal
+- `111.222e-10`: Literal in scientific notation
 
 ### List Literal
 `[1,2,"y"]`: Basic list literal
